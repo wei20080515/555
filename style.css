@@ -1,9 +1,11 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #ffecef;  /* 淡粉紅色背景 */
 }
 
 .card {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff5f6;  /* 更淺的粉紅色卡片背景 */
+    border: 1px solid #ffd1dc;  /* 粉紅色邊框 */
 }
 
 #player {
@@ -12,7 +14,7 @@ body {
 }
 
 .note-item {
-    border-left: 4px solid #0d6efd;
+    border-left: 4px solid #ff97a9;  /* 較深的粉紅色邊框 */
     padding: 10px;
     margin-bottom: 10px;
     background-color: #fff;
@@ -23,24 +25,26 @@ body {
 .note-item:hover {
     transform: translateX(5px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff5f6;  /* hover 時的淺粉紅色背景 */
 }
 
 .timestamp-link {
-    color: #0d6efd;
+    color: #ff6b88;  /* 粉紅色連結 */
     text-decoration: none;
     cursor: pointer;
 }
 
 .timestamp-link:hover {
     text-decoration: underline;
+    color: #ff4d6d;  /* hover 時的深粉紅色 */
 }
 
 .delete-note {
     float: right;
-    color: #dc3545;
+    color: #ff8fa3;  /* 粉紅色刪除按鈕 */
     cursor: pointer;
 }
 
 .delete-note:hover {
-    color: #c82333;
+    color: #ff6b88;  /* hover 時的深粉紅色 */
 }
